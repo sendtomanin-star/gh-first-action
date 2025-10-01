@@ -1,3 +1,4 @@
+---
 name: frist-workflow
 on: workflow_dispatch
 jobs:
@@ -6,5 +7,5 @@ jobs:
     steps:
       - name: Print greeting
       - run: |
-             echo "Print greeting"
-             echo "Print Good Bye!"
+          echo "Print greeting"
+          echo "Print Good Bye!"
