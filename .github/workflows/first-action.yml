@@ -2,10 +2,12 @@
 name: frist-workflow
 on: workflow_dispatch
 jobs:
-  first-job:
+  my_job:
     runs-on: ubuntu-latest
     steps:
-      - name: My first Step
-      - run: |
-          echo "Print greeting"
-          echo "Print Good Bye!"
+      - name: My first step # Optional: A human-readable name for the step
+        run: echo "Hello, GitHub Actions!" # Execute a shell command
+      - name: Run a multi-line script
+        run: | # Use the pipe symbol for multi-line shell commands
+          echo "This is the first line."
+          echo "This is the second line."
