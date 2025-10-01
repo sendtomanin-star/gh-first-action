@@ -5,7 +5,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print greeting
+      - name: My first Step
       - run: |
           echo "Print greeting"
           echo "Print Good Bye!"
